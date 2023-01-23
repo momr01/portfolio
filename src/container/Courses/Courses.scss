@@ -1,0 +1,133 @@
+.app__courses {
+    flex: 1;
+    width: 100%;
+    flex-direction: column;
+}
+
+.app__courses-container {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+
+    @media screen and (max-width: 900px) {
+        width: 100%;
+        flex-direction: column;
+
+    }
+}
+
+.app__courses-exp {
+    flex: 1;
+    display: flex;
+    height: 55vh;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    overflow: auto;
+
+    @media screen and (max-width: 900px) {
+        margin-top: 2rem;
+
+    }
+}
+
+.app__courses-exp-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 1rem 0;
+    flex-wrap: wrap;
+
+}
+
+.app__courses-exp-works {
+    flex: 1;
+
+    .app__courses-exp-work {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        cursor: pointer;
+
+        h4 {
+            font-weight: 500;
+
+            &:hover {
+                color: var(--secondary-color);
+            }
+        }
+
+        p {
+            font-weight: 400;
+            color: var(--gray-color);
+            margin-top: 5px;
+        }
+
+
+    }
+
+}
+
+.app__courses-exp-year {
+    margin-right: 3rem;
+
+    p {
+        font-weight: 800;
+        color: var(--secondary-color);
+    }
+
+    span {
+        text-decoration: underline;
+    }
+
+    @media screen and (max-width: 450px) {
+        margin-right: 1rem;
+
+    }
+}
+
+
+.app__courses-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+
+    margin: 2rem 0 2rem;
+
+    .app__courses-filter-item {
+        padding: 0.5rem 1rem;
+        border: none;
+        border-radius: 0.5rem;
+        background-color: #fff;
+        color: #000;
+        font-weight: 800;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        margin: 0.5rem;
+
+        &:hover {
+            background-color: var(--secondary-color);
+            color: #fff;
+        }
+
+        @media screen and (min-width: 2000px) {
+            padding: 1rem 2rem;
+            border-radius: 0.85rem;
+            ;
+
+        }
+
+    }
+
+    .item-active {
+        background-color: var(--secondary-color);
+        color: #fff;
+
+    }
+}
