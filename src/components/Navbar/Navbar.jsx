@@ -3,6 +3,7 @@ import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import { sectionsItems } from "../../data/sectionsItems";
+import { images } from "../../constants";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -10,9 +11,12 @@ const Navbar = () => {
   return (
     <nav className="app__navbar">
       <div className="app__navbar-logo">
-        <h2>
+        {/* <h2>
           M O <span>M R</span>
-        </h2>
+        </h2> */}
+       
+          <img src={images.logo1} alt="logo" />
+       
       </div>
       <ul className="app__navbar-links">
         {sectionsItems.map((item) => (

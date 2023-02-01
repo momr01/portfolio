@@ -49,6 +49,22 @@
     justify-content: center;
     align-items: center;
 
+    .arrow-prev-next-btn {
+        svg {
+            cursor: pointer;
+
+            &:hover {
+                color: var(--secondary-color);
+            }
+        }
+    }
+
+    .not-allowed-btn {
+        svg {
+            cursor: not-allowed;
+        }
+    }
+
     .app__work-item {
         width: 270px;
         flex-direction: column;

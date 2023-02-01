@@ -45,7 +45,6 @@ const Experience = () => {
               </div>
               <motion.div className="app__exp-exp-works">
                 {experience.works.map((work) => (
-                  <>
                     <Tooltip
                       title={work.desc}
                       placement="top"
@@ -64,7 +63,6 @@ const Experience = () => {
                         <p className="p-text">{work.company}</p>
                       </motion.div>
                     </Tooltip>
-                  </>
                 ))}
               </motion.div>
             </motion.div>
@@ -82,7 +80,6 @@ const Experience = () => {
               </div>
               <motion.div className="app__exp-exp-works">
                 {edu.works.map((work) => (
-                  <>
                     <Tooltip
                       title={work.desc}
                       placement="top"
@@ -101,7 +98,6 @@ const Experience = () => {
                         <p className="p-text">{work.company}</p>
                       </motion.div>
                     </Tooltip>
-                  </>
                 ))}
               </motion.div>
             </motion.div>

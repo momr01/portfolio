@@ -67,6 +67,10 @@ import excel from "../assets/hard_skills/excel.png";
 import sql from "../assets/hard_skills/sql.png";
 import responsive from "../assets/hard_skills/responsive-design.png";
 
+//logos
+import logo1 from "../assets/Logo - MAXI-05.png";
+import logo2 from "../assets/Logo - MAXI-06.png";
+
 export default {
   email,
   mobile,
@@ -128,4 +132,6 @@ export default {
   excel,
   sql,
   responsive,
+  logo1,
+  logo2,
 };
