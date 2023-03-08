@@ -81,4 +81,39 @@ export const allHardSkills = [
     bgColor: "#edf2f8",
     icon: images.sass,
   },
+  {
+    name: "Trello",
+    bgColor: "#edf2f8",
+    icon: images.trello,
+  },
+  {
+    name: "Google Colaboratory",
+    bgColor: "#edf2f8",
+    icon: images.colab,
+  },
+  {
+    name: "ClickUp",
+    bgColor: "#edf2f8",
+    icon: images.clickUp,
+  },
+  {
+    name: "Material UI",
+    bgColor: "#edf2f8",
+    icon: images.materialUi,
+  },
+  {
+    name: "Tailwindcss",
+    bgColor: "#edf2f8",
+    icon: images.tailwindCss,
+  },
+  {
+    name: "Ant Design",
+    bgColor: "#edf2f8",
+    icon: images.antDesign,
+  },
+  {
+    name: "Framer Motion",
+    bgColor: "#edf2f8",
+    icon: images.framerMotion,
+  },
 ];

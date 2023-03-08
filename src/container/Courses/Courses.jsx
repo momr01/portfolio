@@ -99,7 +99,54 @@ const Courses = () => {
                     data-tip
                     data-for={each.name}
                   >
-                    <h4 className="bold-text">{each.name}</h4>
+                    <div className="app_courses-title-course">
+                      {each.diploma && (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-certificate"
+                          width="28"
+                          height="28"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="#313bac"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <circle cx="15" cy="15" r="3" />
+                          <path d="M13 17.5v4.5l2 -1.5l2 1.5v-4.5" />
+                          <path d="M10 19h-5a2 2 0 0 1 -2 -2v-10c0 -1.1 .9 -2 2 -2h14a2 2 0 0 1 2 2v10a2 2 0 0 1 -1 1.73" />
+                          <line x1="6" y1="9" x2="18" y2="9" />
+                          <line x1="6" y1="12" x2="9" y2="12" />
+                          <line x1="6" y1="15" x2="8" y2="15" />
+                        </svg>
+                      )}
+
+                      {each.isCompleted && (
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          class="icon icon-tabler icon-tabler-checkbox"
+                          width="28"
+                          height="28"
+                          viewBox="0 0 24 24"
+                          stroke-width="1.5"
+                          stroke="#313bac"
+                          fill="none"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        >
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                          <polyline points="9 11 12 14 20 6" />
+                          <path d="M20 12v6a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h9" />
+                        </svg>
+                      )}
+                      {(each.diploma ||
+                        each.isCompleted) && <div className="space"></div>}
+
+                      <h4 className="bold-text">{each.name}</h4>
+                    </div>
+
                     <p className="p-text">{each.platform}</p>
                   </motion.div>
                 </Tooltip>

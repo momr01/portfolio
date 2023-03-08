@@ -48,6 +48,13 @@ import hotel from "../assets/projects/proyecto-hotel.gif";
 import inventario from "../assets/projects/proyecto-inventario.PNG";
 import libroDiario from "../assets/projects/proyecto-libro_diario.PNG";
 import tareas from "../assets/projects/proyecto-tareas.PNG";
+import ems from "../assets/projects/proyecto-ems.png";
+import hoobank from "../assets/projects/proyecto-hoobank.png";
+import nike from "../assets/projects/proyecto-nike.png";
+import charts from "../assets/projects/proyecto-charts.png";
+import internships from "../assets/projects/proyecto-internships.PNG";
+import internshipsRtkq from "../assets/projects/proyecto-internship-rtkq.PNG";
+import gestamed from "../assets/projects/proyecto-gestamed.png";
 
 //hard-skills
 import css from "../assets/hard_skills/css.png";
@@ -66,6 +73,13 @@ import mongodb from "../assets/hard_skills/mongodb.png";
 import excel from "../assets/hard_skills/excel.png";
 import sql from "../assets/hard_skills/sql.png";
 import responsive from "../assets/hard_skills/responsive-design.png";
+import framerMotion from "../assets/hard_skills/framer-motion.png";
+import antDesign from "../assets/hard_skills/antdesign.png";
+import tailwindCss from "../assets/hard_skills/tailwindcss.png";
+import trello from "../assets/hard_skills/trello.png";
+import colab from "../assets/hard_skills/colab.png";
+import clickUp from "../assets/hard_skills/clickup.png";
+import materialUi from "../assets/hard_skills/material-ui.png";
 
 //logos
 import logo1 from "../assets/Logo - MAXI-05.png";
@@ -134,4 +148,18 @@ export default {
   responsive,
   logo1,
   logo2,
+  framerMotion,
+  antDesign,
+  tailwindCss,
+  trello,
+  colab,
+  clickUp,
+  materialUi,
+  ems,
+  hoobank,
+  nike,
+  charts,
+  internships,
+  internshipsRtkq,
+  gestamed,
 };

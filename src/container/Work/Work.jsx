@@ -15,8 +15,8 @@ const Work = () => {
   const [filterWork, setFilterWork] = useState([]);
 
   useEffect(() => {
-    setWorks(allWorks);
-    setFilterWork(allWorks);
+    setWorks(allWorks.filter((work) => work.show));
+    setFilterWork(allWorks.filter((work) => work.show));
   }, []);
 
   const handleWorkFilter = (item) => {

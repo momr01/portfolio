@@ -31,6 +31,11 @@
     }
 }
 
+.app_courses-title-course{
+    display: flex;
+    align-items: center;
+}
+
 .app__courses-exp-item {
     display: flex;
     flex-direction: row;
@@ -52,6 +57,10 @@
         margin-bottom: 1rem;
         flex-wrap: wrap;
         cursor: pointer;
+
+        .space {
+            width: 10px;
+        }
 
         h4 {
             font-weight: 500;
