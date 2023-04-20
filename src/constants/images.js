@@ -2,7 +2,6 @@ import email from "../assets/email.png";
 import mobile from "../assets/mobile.png";
 import api from "../assets/api.png";
 import cpp from "../assets/cpp.png";
-import flutter from "../assets/flutter.png";
 import graphql from "../assets/graphql.png";
 import mu5 from "../assets/mu5.png";
 import typescript from "../assets/typescript.png";
@@ -80,6 +79,14 @@ import trello from "../assets/hard_skills/trello.png";
 import colab from "../assets/hard_skills/colab.png";
 import clickUp from "../assets/hard_skills/clickup.png";
 import materialUi from "../assets/hard_skills/material-ui.png";
+import net from "../assets/hard_skills/net.png";
+import illustrator from "../assets/hard_skills/illustrator.png";
+import xd from "../assets/hard_skills/xd.png";
+import csharp from "../assets/hard_skills/csharp.png";
+import dart from "../assets/hard_skills/dart.png";
+import eclipse from "../assets/hard_skills/eclipse.png";
+import flutter from "../assets/hard_skills/flutter.jpg";
+import visualStudio from "../assets/hard_skills/visual-studio.png";
 
 //logos
 import logo1 from "../assets/Logo - MAXI-05.png";
@@ -162,4 +169,11 @@ export default {
   internships,
   internshipsRtkq,
   gestamed,
+  net,
+  illustrator,
+  xd,
+  csharp,
+  dart,
+  eclipse,
+  visualStudio,
 };

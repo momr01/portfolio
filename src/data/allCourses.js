@@ -64,7 +64,7 @@ export const allCourses = [
         isCompleted: false,
       },
       {
-        name: "UX/UI Design",
+        name: "UX/UI Design Bootcamp",
         platform: "UX/UI Open 2023",
         skills: ["Figma", "Notion", "UX/UI"],
         diploma: false,
