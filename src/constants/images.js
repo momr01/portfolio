@@ -1,28 +1,19 @@
-import email from "../assets/email.png";
-import mobile from "../assets/mobile.png";
-import api from "../assets/api.png";
-import cpp from "../assets/cpp.png";
-import graphql from "../assets/graphql.png";
-import mu5 from "../assets/mu5.png";
-import typescript from "../assets/typescript.png";
-import vue from "../assets/vue.png";
-import about01 from "../assets/about01.png";
-import about02 from "../assets/about02.png";
-import about03 from "../assets/about03.png";
-import about04 from "../assets/about04.png";
+//contact
+import email from "../assets/contact/email.png";
+import mobile from "../assets/contact/mobile.png";
 
-import profile from "../assets/profile.png";
-import circle from "../assets/circle.svg";
-import logo from "../assets/logo.png";
-import maxi from "../assets/foto_perfil_low.png";
+//about section
+import about01 from "../assets/about/about01.png";
+import about02 from "../assets/about/about02.png";
+import about03 from "../assets/about/about03.png";
+import about04 from "../assets/about/about04.png";
 
-import adidas from "../assets/adidas.png";
-import amazon from "../assets/amazon.png";
-import asus from "../assets/asus.png";
-import bolt from "../assets/bolt.png";
-import nb from "../assets/nb.png";
-import skype from "../assets/skype.png";
-import spotify from "../assets/spotify.png";
+//profile
+import profile from "../assets/profile/foto_perfil.jpg";
+import logo from "../assets/profile/Logo - MAXI-05.png";
+
+//background
+import circle from "../assets/main-background/circle.svg";
 
 //soft skills
 import comunication from "../assets/soft_skills/speech-bubble.png";
@@ -54,6 +45,15 @@ import charts from "../assets/projects/proyecto-charts.png";
 import internships from "../assets/projects/proyecto-internships.PNG";
 import internshipsRtkq from "../assets/projects/proyecto-internship-rtkq.PNG";
 import gestamed from "../assets/projects/proyecto-gestamed.png";
+import bookingMobile from "../assets/projects/proyecto-flutter-booking-gif.gif";
+import crudMobile from "../assets/projects/proyecto-flutter-crud-gif.gif";
+import deliveryMobile from "../assets/projects/proyecto-flutter-delivery-gif.gif";
+import gamerMobile from "../assets/projects/proyecto-flutter-gamer-gif.gif";
+import likesMobile from "../assets/projects/proyecto-flutter-likeApp-gif.gif";
+import employeeAngular from "../assets/projects/proyecto-employee-angular.jpg";
+import petsAngular from "../assets/projects/proyecto-pets-angular.PNG";
+import salesAngular from "../assets/projects/proyecto-sistemaVentas.PNG";
+import crudMobileAPI from "../assets/projects/api-crud-flutter.PNG";
 
 //hard-skills
 import css from "../assets/hard_skills/css.png";
@@ -85,48 +85,33 @@ import xd from "../assets/hard_skills/xd.png";
 import csharp from "../assets/hard_skills/csharp.png";
 import dart from "../assets/hard_skills/dart.png";
 import eclipse from "../assets/hard_skills/eclipse.png";
-import flutter from "../assets/hard_skills/flutter.jpg";
+import flutter from "../assets/hard_skills/flutter.png";
 import visualStudio from "../assets/hard_skills/visual-studio.png";
-
-//logos
-import logo1 from "../assets/Logo - MAXI-05.png";
-import logo2 from "../assets/Logo - MAXI-06.png";
+import afterEffects from "../assets/hard_skills/after-effects.png";
+import angular from "../assets/hard_skills/angular.png";
+import api from "../assets/hard_skills/api.png";
+import typescript from "../assets/hard_skills/typescript.png";
+import angularMaterial from "../assets/hard_skills/angular-material.png";
 
 export default {
+  //contact
   email,
   mobile,
-  api,
-  cpp,
-  css,
-  figma,
-  flutter,
-  git,
-  graphql,
-  html,
-  javascript,
-  mu5,
-  node,
-  python,
-  react,
-  redux,
-  sass,
-  typescript,
-  vue,
+
+  //about section
   about01,
   about02,
   about03,
   about04,
+
+  //profile
   profile,
-  circle,
   logo,
-  adidas,
-  amazon,
-  asus,
-  bolt,
-  nb,
-  skype,
-  spotify,
-  maxi,
+
+  //background
+  circle,
+
+  //soft skills
   comunication,
   teams,
   trouble,
@@ -139,6 +124,8 @@ export default {
   stress,
   collaboration,
   opinions,
+
+  //works - projects
   ahorcado,
   conversor,
   ecommerce,
@@ -147,21 +134,6 @@ export default {
   inventario,
   libroDiario,
   tareas,
-  java,
-  bootstrap,
-  mongodb,
-  excel,
-  sql,
-  responsive,
-  logo1,
-  logo2,
-  framerMotion,
-  antDesign,
-  tailwindCss,
-  trello,
-  colab,
-  clickUp,
-  materialUi,
   ems,
   hoobank,
   nike,
@@ -169,11 +141,51 @@ export default {
   internships,
   internshipsRtkq,
   gestamed,
+  bookingMobile,
+  crudMobile,
+  deliveryMobile,
+  gamerMobile,
+  likesMobile,
+  employeeAngular,
+  petsAngular,
+  salesAngular,
+  crudMobileAPI,
+
+  //hard-skills
+  css,
+  figma,
+  git,
+  html,
+  javascript,
+  node,
+  python,
+  react,
+  redux,
+  sass,
+  java,
+  bootstrap,
+  mongodb,
+  excel,
+  sql,
+  responsive,
+  framerMotion,
+  antDesign,
+  tailwindCss,
+  trello,
+  colab,
+  clickUp,
+  materialUi,
   net,
   illustrator,
   xd,
   csharp,
   dart,
   eclipse,
+  flutter,
   visualStudio,
+  afterEffects,
+  api,
+  typescript,
+  angular,
+  angularMaterial,
 };

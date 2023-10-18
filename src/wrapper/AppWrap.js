@@ -14,7 +14,7 @@ const AppWrap = (Component, idName, classNames) =>
             {/* <p className="p-text">@2023 Maximiliano Montaña</p> */}
             <p className="p-text" style={{display: 'flex', alignItems: 'center'}}>
               <span style={{marginRight: '5px'}}>@2023</span>
-              <img style={{ width: "90px" }} src={images.logo1} alt="logo" />
+              <img style={{ width: "90px" }} src={images.logo} alt="logo" />
             </p>
             <p className="p-text">All rights reserved</p>
           </div>

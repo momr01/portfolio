@@ -187,4 +187,34 @@ export const allHardSkills = [
     icon: images.csharp,
     category: "language",
   },
+  {
+    name: "Adobe After Effects",
+    bgColor: "#edf2f8",
+    icon: images.afterEffects,
+    category: "design",
+  },
+  {
+    name: "Angular",
+    bgColor: "#edf2f8",
+    icon: images.angular,
+    category: "framework",
+  },
+  {
+    name: "Typescript",
+    bgColor: "#edf2f8",
+    icon: images.typescript,
+    category: "language",
+  },
+  {
+    name: "API",
+    bgColor: "#edf2f8",
+    icon: images.api,
+    category: "software",
+  },
+  {
+    name: "Angular Material",
+    bgColor: "#edf2f8",
+    icon: images.angularMaterial,
+    category: "library",
+  },
 ];

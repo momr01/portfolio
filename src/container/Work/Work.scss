@@ -69,13 +69,12 @@
         width: 270px;
         flex-direction: column;
 
-        margin: 2rem;
+        margin: 1rem;
         padding: 1rem;
         border-radius: 0.5rem;
         background-color: #fff;
         color: #000;
 
-        cursor: pointer;
         transition: all 0.3s ease;
 
         &:hover {
@@ -92,6 +91,7 @@
             width: 100%;
             margin: 1rem;
         }
+
     }
 }
 
@@ -155,6 +155,72 @@
     width: 100%;
     position: relative;
     flex-direction: column;
+
+    .work__title-container {
+        width: 100%;
+
+
+        .work__title {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 1;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            height: 30;
+            text-align: center;
+
+        }
+    }
+
+    .work__description-container {
+        margin: 10px 0;
+        width: 100%;
+
+        .work__description {
+            display: -webkit-box;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 2;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+
+    .work__tools-container {
+        width: 100%;
+        min-height: 3rem;
+
+        .work__tools-tool {
+            display: inline-block;
+            margin: 5px 3px;
+            border-radius: 7px;
+            font-size: 12px;
+            padding: 0 5px;
+            color: white;
+            font-weight: bold;
+        }
+    }
+
+    .work__links-container {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        margin: 30px 0 20px 0;
+
+        .link__deploy {
+            color: #313bac;
+            width: 12px;
+        }
+
+        .link__github {
+            color: black;
+            width: 12px;
+        }
+
+        .link__youtube {
+            color: red;
+            width: 12px;
+        }
+    }
 
     h4 {
         margin-top: 1rem;

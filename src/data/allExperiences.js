@@ -29,7 +29,7 @@ export const allExp = [
   {
     year: {
       start: "2022",
-      end: "now",
+      end: "2023",
     },
     works: [
       {
