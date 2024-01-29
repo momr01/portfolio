@@ -8,8 +8,8 @@ import { allCourses } from "../../data/allCourses";
 const Courses = () => {
   const [courses, setCourses] = useState([]);
   const [course, setCourse] = useState([]);
-  const [year, setYear] = useState(2023);
-  const [active, setActive] = useState(2023);
+  const [year, setYear] = useState(2024);
+  const [active, setActive] = useState(2024);
 
   const orderData = (data) => {
     const arrayForSort = [...data];

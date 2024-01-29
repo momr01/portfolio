@@ -16,13 +16,26 @@ export const allExp = [
   {
     year: {
       start: "2017",
-      end: "now",
+      end: "2023",
     },
     works: [
       {
         name: "Senior Analyst",
         company: "EDEMSA",
         desc: "Skills developed: be able to work in teams, solve clients' problems, development of activities under pressure, be able to adapt myself to national and local changes of laws, creation and analysis of SQL queries.",
+      },
+    ],
+  },
+  {
+    year: {
+      start: "2023",
+      end: "now",
+    },
+    works: [
+      {
+        name: "Reading Expert",
+        company: "EDEMSA",
+        desc: "Skills developed: be able to work in teams, solve clients' problems, development of activities under pressure, be able to adapt myself to national and local changes of laws, creation and analysis of SQL queries, manage working teams.",
       },
     ],
   },

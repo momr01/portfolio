@@ -1,5 +1,28 @@
 export const allCourses = [
   {
+    year: "2024",
+    courses: [
+      {
+        name: "Ciberseguridad - Google",
+        platform: "Coursera",
+        skills: ["Ciberseguridad", "SQL", "Python"],
+        diploma: false,
+        linkDiploma: "",
+        show: true,
+        isCompleted: false,
+      },
+      {
+        name: "Azure Professional Training 2024",
+        platform: "Cono Sur Tech",
+        skills: ["Azure", "Microsoft", ".NET"],
+        diploma: false,
+        linkDiploma: "",
+        show: true,
+        isCompleted: false,
+      }
+    ],
+  },
+  {
     year: "2023",
     courses: [
       {
@@ -89,15 +112,6 @@ export const allCourses = [
         linkDiploma: "",
         show: true,
         isCompleted: true,
-      },
-      {
-        name: "Ciberseguridad - Google",
-        platform: "Coursera",
-        skills: ["Ciberseguridad", "SQL", "Python"],
-        diploma: false,
-        linkDiploma: "",
-        show: true,
-        isCompleted: false,
       }
     ],
   },

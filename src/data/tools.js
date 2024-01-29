@@ -69,6 +69,16 @@ const tools = [
     name: "MongoDB",
     color: "#1A853E",
   },
+  {
+    id: 14,
+    name: "PHP",
+    color: "#BE2AFA",
+  },
+  {
+    id: 15,
+    name: "MySQL",
+    color: "#876F51",
+  }
 ];
 
 export { tools };

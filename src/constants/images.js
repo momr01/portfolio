@@ -92,6 +92,8 @@ import angular from "../assets/hard_skills/angular.png";
 import api from "../assets/hard_skills/api.png";
 import typescript from "../assets/hard_skills/typescript.png";
 import angularMaterial from "../assets/hard_skills/angular-material.png";
+import php from "../assets/hard_skills/php-logo.png";
+import mysql from "../assets/hard_skills/mysql-logo.png";
 
 export default {
   //contact
@@ -188,4 +190,6 @@ export default {
   typescript,
   angular,
   angularMaterial,
+  php,
+  mysql
 };

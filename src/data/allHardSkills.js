@@ -217,4 +217,16 @@ export const allHardSkills = [
     icon: images.angularMaterial,
     category: "library",
   },
+  {
+    name: "PHP",
+    bgColor: "#edf2f8",
+    icon: images.php,
+    category: "language",
+  },
+  {
+    name: "MySQL",
+    bgColor: "#edf2f8",
+    icon: images.mysql,
+    category: "database",
+  }
 ];

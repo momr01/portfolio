@@ -1,7 +1,7 @@
 import { Tooltip } from "@mui/material";
 import { BsGithub, BsLinkedin, BsWhatsapp } from "react-icons/bs";
 import { GiNotebook } from "react-icons/gi";
-import Cv from "../assets/CV_1.8_english.pdf";
+import Cv from "../assets/CV-6-english.pdf";
 
 const SocialMedia = () => {
   return (
